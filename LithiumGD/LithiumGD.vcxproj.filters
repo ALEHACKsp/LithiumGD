@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="LithiumGD.cpp" />
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheats\Bypass.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheats\Creator.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheats\Player.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheats\Others.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4ec9cdec-b6d3-415e-9122-b2811ec33966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats">
+      <UniqueIdentifier>{52c4f9a6-4db6-4060-b61e-a2a480c311cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Offsets.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheats\Cheats.h">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
